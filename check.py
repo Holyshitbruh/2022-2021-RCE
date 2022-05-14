@@ -1,4 +1,3 @@
-
 import requests
 import argparse
 
@@ -17,16 +16,16 @@ def usage():
     2022
     Vulnerability name: F5 BIG-IP iControl Rest API exposed Check
     Function: single detection, batch detection                                    
-    Single detection：python exp.py -u url
-    Batch detection：python exp.py -f url.txt
+    Single detection: python exp.py -u url
+    Batch detection: python exp.py -f url.txt
     Check: python check.py -f url.txt
     +-----------------------------------------------------------------+   
-    2021
     +===========================================================================+
-        Validation mode：python CVE_2021.py -v true -u target_url 
-        Attack mode：python CVE_2021.py -a true -u target_url -c command 
-        Batch detection：python CVE_2021.py -s true -f file
-        Bounce mode：python CVE_2021.py -r true -u target_url -c command 
+    2021
+        Validation mode: python CVE_2021.py -v true -u target_url 
+        Attack mode: python CVE_2021.py -a true -u target_url -c command 
+        Batch detection: python CVE_2021.py -s true -f file
+        Bounce mode: python CVE_2021.py -r true -u target_url -c command 
     +===========================================================================+                                  
     ''')
 
