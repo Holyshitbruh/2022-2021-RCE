@@ -138,3 +138,16 @@ https://10.9.45.2
 https://10.5.96.105
 https://10.3.156.6
 ```
+<strong>exp.py basic usage</strong>
+
+```
+       Validation mode：python CVE_2022.py -v true -u target_url 
+       Attack mode：python CVE_2022.py -a true -u target_url -c command 
+       Batch detection：python CVE_2022.py -s true -f file
+       Bounce mode：python CVE_2022.py -r true -u target_url -c command 
+      ================================================================
+       Validation mode：python exp.py -v true -u target_url 
+       Attack mode：python exp.py -a true -u target_url -c command 
+       Batch detection：python exp.py -s true -f file
+       Bounce mode：python exp.py -r true -u target_url -c command 
+```
