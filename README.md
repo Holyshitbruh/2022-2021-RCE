@@ -151,3 +151,9 @@ https://10.3.156.6
        Batch detection：python exp.py -s true -f file
        Bounce mode：python exp.py -r true -u target_url -c command 
 ```
+
+<strong>CVE-26133.py basic usage</strong>
+
+```
+python3 CVE-2022-26133.py -u http://192.168.110.136:7990 -f target.txt
+```
