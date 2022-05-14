@@ -23,10 +23,11 @@ def title():
                                                                  Github:https://github.com/Holyshitbruh
     ''')
     print('''
-       Validation mode：python CVE_2022_1388.py -v true -u target_url 
-       Attack mode：python CVE_2022_1388.py -a true -u target_url -c command 
-       Batch detection：python CVE_2022_1388.py -s true -f file
-       Bounce mode：python CVE_2022_1388.py -r true -u target_url -c command 
+    (I literally dont know what the fuck this is tbh)
+       Validation mode：python CVE_2022.py -v true -u target_url 
+       Attack mode：python CVE_2022.py -a true -u target_url -c command 
+       Batch detection：python CVE_2022.py -s true -f file
+       Bounce mode：python CVE_2022.py -r true -u target_url -c command 
         ''')
 
 
