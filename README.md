@@ -56,6 +56,7 @@ Batch detection：python exp.py -f url.txt
 Check: python check.py -f url.txt
 ```
 <strong>2022/CVE-1388.py basic usage</strong>
+
 this is the CVE-2022-1388 REST Auth Bypass RCE
 
 ```http
