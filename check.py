@@ -9,7 +9,7 @@ def usage():
     他妈的你黑鬼我们华夫饼时间
     waffle time trust
     +===========================================================================+   
-    -=2022/CVE-1388.py basic usage this is the CVE-2022-1388 REST Auth Bypass RCE in github readme=-
+    -=2022/CVE-1388.py the CVE-2022-1388 REST Auth Bypass RCE basic usage is in github readme=-
     https://github.com/Holyshitbruh/20221-2021-F5-BIG-IP-IQ-RCE/blob/main/README.md
     +===========================================================================+   
     +-----------------------------------------------------------------+
