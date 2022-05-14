@@ -1,4 +1,8 @@
 # 2022-2021-RCE
+
+!!!WARNING!!!
+I AM NOT RESPONSIBLE FOR ANY ACTIVITY OF THE USAGE OF THIS TOOL
+
 I modified it so you can use CVE-2022-1388/CVE-2021-22986 and F5 BIG-IP RCE vuln checks and exploiters
 the normal check.py and exp.py is 2022 but CVE_2021, newpoc, and f5.rest.jar are from the 2021 version
 Idk why but I added the CVE-2022-1388 REST Auth Bypass RCE
