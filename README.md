@@ -4,7 +4,7 @@ the normal check.py and exp.py is 2022 but CVE_2021, newpoc, and f5.rest.jar are
 
 but all you gotta do is do python check.py to see all cmds
 
-<h2><strong>2021 Basic use</strong></h2
+<strong>2021 Basic use</strong>
 
 python3 CVE_2021.py
 Vuln check: python3 CVE_2021_22986.py -v true -u https://192.168.174.164
@@ -18,7 +18,7 @@ Attack mode：python CVE_2021.py -a true -u target_url -c command
 Batch detection：python CVE_2021.py -s true -f file
 Bounce mode：python CVE_2021.py -r true -u target_url -c command 
 
-<h2><strong>2022 Basic use</strong></h2
+<strong>2022 Basic use</strong>
 Vulnerability name: F5 BIG-IP iControl Rest API exposed Check
 Function: single detection, batch detection                                    
 Single detection：python exp.py -u url
