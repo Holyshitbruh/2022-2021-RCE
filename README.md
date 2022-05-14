@@ -5,7 +5,7 @@ Idk why but I added the CVE-2022-1388 REST Auth Bypass RCE
 
 but all you gotta do is do python check.py to see all cmds
 
-</h2><strong>2021/CVE_2021 Basic use</strong></h2>
+<strong>2021/CVE_2021 Basic use</strong>
 ```
 python3 CVE_2021.py
 ```
@@ -39,7 +39,7 @@ Batch detection：python CVE_2021.py -s true -f file
 ```
 Bounce mode：python CVE_2021.py -r true -u target_url -c command 
 ```
-</h2><strong>2022/Check.py Basic use</strong></h2>
+<strong>2022/Check.py Basic use</strong>
 
 Vulnerability name: F5 BIG-IP iControl Rest API exposed Check
 
@@ -55,7 +55,7 @@ Batch detection：python exp.py -f url.txt
 ```
 Check: python check.py -f url.txt
 ```
-</h2><strong>2022/CVE-1388.py basic usage</strong></h2>
+<strong>2022/CVE-1388.py basic usage</strong>
 this is the CVE-2022-1388 REST Auth Bypass RCE
 
 ```http
